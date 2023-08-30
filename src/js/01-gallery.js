@@ -1,13 +1,13 @@
-// Add imports above this line
+
 import { galleryItems } from './gallery-items';
 import Simplelightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-// Change code below this line
-console.log(galleryItems);
+
+
 
 
 const container = document.querySelector(".gallery");
-console.log(container);
+
 function createMarkup(arr) {
   return arr
     .map(
